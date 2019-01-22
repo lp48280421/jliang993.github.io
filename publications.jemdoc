@@ -5,9 +5,9 @@
 == Preprint
 	. [https://arxiv.org/pdf/1807.03134 Partial Smoothness and Constant Rank] ([https://people.orie.cornell.edu/aslewis/ A. Lewis] and JL)
 	#
-	. [files/journal/faster-fista.pdf Improving “Fast Iterative Shrinkage-Thresholding Algorithm”: Faster, Smarter and Greedier] (JL and [http://www.damtp.cam.ac.uk/user/cbs31/Home.html C. Schönlieb]) ([https://github.com/jliang993/Faster-FISTA codes])
+	. [files/journal/faster-fista.pdf Improving “Fast Iterative Shrinkage-Thresholding Algorithm”: Faster, Smarter and Greedier] (JL and [http://www.damtp.cam.ac.uk/user/cbs31/Home.html C. Schönlieb]) ([https://github.com/jliang993/Faster-FISTA *codes*])
 	#
-	. [files/journal/rate-fdr.pdf Convergence Rates of Forward–Douglas–Rachford Splitting Method] (C. Molinari, JL and [https://fadili.users.greyc.fr/ J. Fadili]) ([https://github.com/jliang993/Rate-FDR codes])
+	. [files/journal/rate-fdr.pdf Convergence Rates of Forward–Douglas–Rachford Splitting Method] (C. Molinari, JL and [https://fadili.users.greyc.fr/ J. Fadili]) ([https://github.com/jliang993/Rate-FDR *codes*])
 
 
 == Journal papers
@@ -27,9 +27,9 @@
 
 
 == Conferences proceedings
-	. [files/conference/eusipco18.pdf Faster FISTA] (JL, [http://www.damtp.cam.ac.uk/user/cbs31/Home.html C. Schönlieb]), European Signal Processing Conference (EUSIPCO), 2018. ([https://github.com/jliang993/Faster-FISTA codes])
+	. [files/conference/eusipco18.pdf Faster FISTA] (JL, [http://www.damtp.cam.ac.uk/user/cbs31/Home.html C. Schönlieb]), European Signal Processing Conference (EUSIPCO), 2018. ([https://github.com/jliang993/Faster-FISTA *codes*])
 	#
-	. [files/conference/icml18.pdf Local Convergence Properties of SAGA/Prox-SVRG and Acceleration] ([http://www.damtp.cam.ac.uk/user/cmhsp2/ C. Poon], JL and [http://www.damtp.cam.ac.uk/user/cbs31/Home.html C. Schönlieb]), Int. Conf on Machine Learning (ICML), 2018. ([https://github.com/jliang993/Local-VRSGD codes])
+	. [files/conference/icml18.pdf Local Convergence Properties of SAGA/Prox-SVRG and Acceleration] ([http://www.damtp.cam.ac.uk/user/cmhsp2/ C. Poon], JL and [http://www.damtp.cam.ac.uk/user/cbs31/Home.html C. Schönlieb]), Int. Conf on Machine Learning (ICML), 2018. ([https://github.com/jliang993/Local-VRSGD *codes*])
 	#
 	. [files/conference/nips16.pdf A Multi-step Inertial Forward-Backward Splitting Method for Non-convex Optimization] (JL, [https://fadili.users.greyc.fr/ J. Fadili] and [http://gpeyre.github.io/ G. Peyré]), Advances in Neural Information Processing Systems (NIPS), 2016.
 	#
