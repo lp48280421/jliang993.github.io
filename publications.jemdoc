@@ -33,7 +33,7 @@
 	#
 	. [files/conference/nips16.pdf A Multi-step Inertial Forward-Backward Splitting Method for Non-convex Optimization] (JL, [https://fadili.users.greyc.fr/ J. Fadili] and [http://gpeyre.github.io/ G. Peyré]), Advances in Neural Information Processing Systems (NIPS), 2016.
 	#
-	. Identification en Temps Fini et Convergence Linéaire Locale de l'Algorithme Proximal Implicite-Explicite Inertiel (JL, [https://fadili.users.greyc.fr/ J. Fadili] and [http://gpeyre.github.io/ G. Peyré]), Colloque sur le Traitement du Signal et des Images (GRETSI), 2015.
+	. [files/conference/gretsi15.pdf Identification en Temps Fini et Convergence Linéaire Locale de l'Algorithme Proximal Implicite-Explicite Inertiel] (JL, [https://fadili.users.greyc.fr/ J. Fadili] and [http://gpeyre.github.io/ G. Peyré]), Colloque sur le Traitement du Signal et des Images (GRETSI), 2015.
 	#
 	. [files/conference/ssvm15.pdf Activity Identification and Local Linear Convergence of Douglas-Rachford/ADMM under Partial Smoothness] (JL, [https://fadili.users.greyc.fr/ J. Fadili], [http://gpeyre.github.io/ G. Peyré] and [http://num.math.uni-goettingen.de/~r.luke/ R. Luke]), 5th Int. Conf. on Scale Space and Variational Methods in Computer Vision (SSVM), 2015.
 	#
