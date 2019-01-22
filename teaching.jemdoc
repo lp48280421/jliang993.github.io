@@ -1,0 +1,62 @@
+# jemdoc: menu{MENU}{teaching.html}
+== Introductory course on non-smooth optimisation
+
+== Description
+The course covers topics in non-smooth optimization and first-order proximal splitting methods. This includes gradient based methods (gradient and subgradient method, proximal gradient method, accelerated gradient methods), operator splitting methods (augmented Lagrangian method, alternating direction method of multipliers, monotone operators and operator splitting), and (possibly) interior-point algorithms.
+
+
+== Lectures
+Lectures are Monday and Wednesday, 11:00–12:00am, in MR9, Pav. B0.43. 
+
+
+
+
+*References:*
+	. S. Boyd and L. Vandenberghe. Convex optimization. Cambridge university press, 2004.
+	. R. T. Rockafellar. Convex analysis. Princeton university press, 2015.
+	. A. Beck. First-order methods in optimization. Vol. 25. SIAM, 2017.
+	. H. H. Bauschke and P. L. Combettes. Convex analysis and monotone operator theory in Hilbert spaces. Vol. 408. New York: Springer, 2011.
+	. B. Polyak. Introduction to optimization. Optimization Software, 1987
+	. Y. Nesterov. Introductory lectures on convex optimization: A basic course. Vol. 87. Springer Science & Business Media, 2013.
+
+
+# \(
+# \nabla \cdot \mathbf{D} = \rho_f\\
+# \nabla \cdot \mathbf{B} = 0,\\
+# \nabla \times \mathbf{E} = -\frac{\partial\mathbf{B}}{\partial t}\\
+# \nabla \times \mathbf{H} = \mathbf{J}_f - \frac{\partial\mathbf{D}}{\partial t}.
+# \)
+#
+# You can also align equations using LaTeX's +aligned+ block:
+# \(
+# \begin{aligned}
+# \nabla \cdot \mathbf{D} &= \rho_f\\
+# \nabla \cdot \mathbf{B} &= 0\\
+# \nabla \times \mathbf{E} &= -\frac{\partial\mathbf{B}}{\partial t}\\
+# \nabla \times \mathbf{H} &= \mathbf{J}_f - \frac{\partial\mathbf{D}}{\partial t}.
+# \end{aligned}
+# \)
+#
+# To number the equation block, wrap the equations with LaTeX's +equation+ block:
+# \(
+# \begin{equation}
+# \begin{aligned}
+# \nabla \cdot \mathbf{D} &= \rho_f\\
+# \nabla \cdot \mathbf{B} &= 0\\
+# \nabla \times \mathbf{E} &= -\frac{\partial\mathbf{B}}{\partial t}\\
+# \nabla \times \mathbf{H} &= \mathbf{J}_f - \frac{\partial\mathbf{D}}{\partial t}.
+# \end{aligned}
+# \end{equation}
+# \)
+#
+# Instead, you can use LaTeX's +align+ (not +aligned+) block to number the individual equations:
+# \(
+# \begin{align}
+# \nabla \cdot \mathbf{D} &= \rho_f\label{eq:D}\\
+# \nabla \cdot \mathbf{B} &= 0\label{eq:B}\\
+# \nabla \times \mathbf{E} &= -\frac{\partial\mathbf{B}}{\partial t}\label{eq:E}\\
+# \nabla \times \mathbf{H} &= \mathbf{J}_f - \frac{\partial\mathbf{D}}{\partial t}\label{eq:H}
+# \end{align}
+# \)
+
+
