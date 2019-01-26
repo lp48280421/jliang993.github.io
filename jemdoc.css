@@ -8,10 +8,10 @@ table#tlayout {
 
 body {
 	background: white;
-    font-size: 19px;
+    font-size: 18px;
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif,"Microsoft YaHei";
     font-family: Arial;
-	padding-bottom: 8px;
+	padding-bottom: 4px;
     padding-right: 8px;
 	margin: 0;
 }
@@ -119,6 +119,9 @@ strong {
 	font-weight: bold;
 }
 
+.MathJax_CHTML {
+	font-size: 100% !important;
+}
 
 h1, h2, h3 {
 	color: #527bbd;
@@ -233,6 +236,7 @@ ol ol ol {
 }
 
 p + div.codeblock {
+	font-size: 85%;
 	margin-top: -0.6em;
 }
 

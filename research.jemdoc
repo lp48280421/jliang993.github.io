@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{research.html}
+# jemdoc: menu{MENU}{research.html}, notime
 == Research
 
 My research mainly focuses on
@@ -7,7 +7,7 @@ My research mainly focuses on
 
 
 == Local linear convergence of first-order methods
-
+First
 
 
 == Acceleration of first-order methods

@@ -1,11 +1,15 @@
-# jemdoc: menu{MENU}{index.html} 
+# jemdoc: menu{MENU}{index.html} , notime
 == Jingwei Liang (梁经纬)
 
 
 ~~~
 {}{img_left}{files/jingwei.jpeg}{}{250px}{250px}{}
-Jingwei Liang\n [http://www.damtp.cam.ac.uk/ Department of Applied Mathematics and Theoretical Physics (DAMTP)]\n [https://www.cam.ac.uk/ University of Cambridge]
+Jingwei Liang\n [http://www.damtp.cam.ac.uk/ Department of Applied Mathematics and Theoretical Physics]\n [https://www.cam.ac.uk/ University of Cambridge] \n
+
+I seceived my Ph.D. from [http://www.ensicaen.fr/ ENSICAEN] and [http://www.unicaen.fr/ University of Caen Normandy] advised by [https://fadili.users.greyc.fr/ Prof. Jalal Fadili] and [http://gpeyre.github.io/ Prof. Gabriel Peyré]. I received my master degree from [http://en.sjtu.edu.cn/ Shanghai Jiao Tong University] under the supervision of [http://math.sjtu.edu.cn/faculty/xqzhang/ Prof. Xiaoqun Zhang]. Prior to that I obtained my bachlor degree in Electrical & Information Engineering from [http://www.njupt.edu.cn/en/ Nanjing University of Posts and Telecommunications].
 ~~~
+
+
 
 
 == News
@@ -16,12 +20,12 @@ Jingwei Liang\n [http://www.damtp.cam.ac.uk/ Department of Applied Mathematics a
 	- Address: DAMTP, Centre for Mathematical Sciences, Wilberforce Road, Cambridge, CB3 0WA, United Kingdom
 
 == Research interests
-	Non-smooth Optimization, Computer Vision, Machine Learning, Signal/Image Processing
+	Non-smooth Optimization, Image Processing, Machine Learning.
 
 == Education & Research experience
 	- 2017-Now: Postdoc research associate, DAMTP, University of Cambridge.
 	- 2013-2016: Ph.D. in Applied Mathematics, GREYC, UMR CNRS 6072, ENSICAEN, University of Caen.
 	- 2012-2013: Research intern, GREYC, UMR CNRS 6072, ENSICAEN, University of Caen.
-	- 2010-2013: M.S. in Applied Mathematics, Department of Mathematics & Institute of Natural Sciences, Shanghai Jiao Tong University (SJTU).
-	- 2006-2010: B.S. in Electrical & Information Engineering, School of Telecommunication and Information Engineering, Nanjing University of Posts and Telecommunications (NJUPT).
+	- 2010-2013: M.S. in Applied Mathematics, Department of Mathematics & Institute of Natural Sciences, Shanghai Jiao Tong University.
+	- 2006-2010: B.S. in Electrical & Information Engineering, School of Telecommunication and Information Engineering, Nanjing University of Posts and Telecommunications.
 
