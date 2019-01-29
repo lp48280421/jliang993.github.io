@@ -131,6 +131,7 @@ h1, h2, h3 {
 	line-height: 1.0;
 	padding-top: 0.5em;
 	border-bottom: 1px solid #aaaaaa;
+	min-width: 1024px;
 }
 
 h1 {
@@ -164,8 +165,7 @@ pre {
 	margin: 0;
 }
 
-div#footer {
-	font-size: small;
+div#footer {font-size: small;
 	border-top: 1px solid #c0c0c0;
 	padding-top: 0.1em;
 	margin-top: 4.0em;
@@ -376,4 +376,41 @@ img {
 table.imgtable, table.imgtable td {
 	border: none;
 	text-align: left;
+}
+
+
+/*Text color*/
+tcr {
+/*	font-weight: bold;*/
+	color: #ff0066;
+}
+
+btcr {
+	font-weight: bold;
+	color: #ff0066;
+}
+
+tcb {
+/*	font-weight: bold;*/
+	color: #0066ff;
+}
+
+btcb {
+	font-weight: bold;
+	color: #0066ff;
+}
+
+
+a:focus, a:hover {
+    	color: #2a6496;
+/*	font-size: 100%;*/
+/*	font-style: italic;*/
+	font-weight: 550;
+/*	border-bottom: none;*/
+}
+a:focus {
+    outline: dotted thin;
+    outline: -webkit-focus-ring-color auto 5px;
+    outline-offset: -2px;
+    /*background-color: rgba(0,0,0,.4);*/
 }

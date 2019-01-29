@@ -11,16 +11,20 @@ Lectures are Monday and Wednesday, 11:00–12:00am, at MR9, Pav. B0.43.
 
 == Lecture slides
 *Acknowledgement: some slides are based on the lecture slides of [https://web.stanford.edu/~boyd/ Prof. Stephen Boyd] (Stanford) and [http://www.seas.ucla.edu/~vandenbe/ Prof. Lieven Vandenberghe] (UCLA).*
-
+	#
 	. [files/nsopt/introduction.pdf Introduction] 
-	# . [files/nsopt/introduction.pdf Gradient method]
+	. [files/nsopt/lecture-01.pdf Gradient method]
+	
+	
+# == Projects
+# 	. [link Project 1]
 
 == References
 	- S. Boyd and L. Vandenberghe. Convex optimization. Cambridge university press, 2004.
 	- R. T. Rockafellar. Convex analysis. Princeton university press, 2015.
 	- A. Beck. First-order methods in optimization. Vol. 25. SIAM, 2017.
 	- H. H. Bauschke and P. L. Combettes. Convex analysis and monotone operator theory in Hilbert spaces. Vol. 408. New York: Springer, 2011.
-	- B. Polyak. Introduction to optimization. Optimization Software, 1987
+	- B. Polyak. Introduction to optimization. Optimization Software, 1987.
 	- Y. Nesterov. Introductory lectures on convex optimization: A basic course. Vol. 87. Springer Science & Business Media, 2013.
 
 
