@@ -400,17 +400,3 @@ btcb {
 	color: #0066ff;
 }
 
-
-a:focus, a:hover {
-    	color: #2a6496;
-/*	font-size: 100%;*/
-/*	font-style: italic;*/
-	font-weight: 450;
-/*	border-bottom: none;*/
-}
-a:focus {
-    outline: dotted thin;
-    outline: -webkit-focus-ring-color auto 5px;
-    outline-offset: -2px;
-    /*background-color: rgba(0,0,0,.4);*/
-}
