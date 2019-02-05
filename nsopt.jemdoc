@@ -16,10 +16,11 @@ Lectures are Monday and Wednesday, 11:00–12:00am, at MR9, Pav. B0.43.
 	. [files/nsopt/lecture-01.pdf Gradient method]
 	. [files/nsopt/lecture-02.pdf Proximal gradient method]
 	. [files/nsopt/lecture-03.pdf Krasnosel'skii-Mann iteration]
+	. [files/nsopt/lecture-04.pdf Backward--Backward splitting]
 	
 	
 == Projects
-	. [files/nsopt/project-01.pdf Project 1] ([files/nsopt/data.zip data])     
+	. [files/nsopt/project-01.pdf Project 1:] Compare gradient descent, heavy-ball method and Nesterov's acceleration scheme, and their proximal versions. ([/project1.html Instructions], [files/nsopt/data.zip data], [files/nsopt/src_Project1.zip MATLAB code])    
 
 == References
 	- S. Boyd and L. Vandenberghe. Convex optimization. Cambridge university press, 2004.

@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Comparison of gradient descent and its variants</title>
+<!-- MathJax -->
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Jingwei Liang</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-category">Research</div>
+<div class="menu-item"><a href="publications.html">Publication</a></div>
+<div class="menu-item"><a href="activities.html">Activity</a></div>
+<div class="menu-item"><a href="https://github.com/jliang993?tab=repositories" target="blank">Codes</a></div>
+<div class="menu-category">Teaching</div>
+<div class="menu-item"><a href="nsopt.html" class="current">Non-smooth<br /> Optimisation</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Comparison of gradient descent and its variants</h1>
+</div>
+<p>Consider the following least square problem</p>
+<p style="text-align:center">
+\[
+\begin{equation*}
+\min_{x \in \mathbb{R}^n} \{ F(x) = \tfrac{1}{2} \|Ax - b\|^2 \}  ,
+\end{equation*}
+\]
+</p><p>where \(b \in \mathbb{R}^n\) and \(A \in \mathbb{R}^{n\times n}\) is of the form</p>
+<p style="text-align:center">
+\[
+\begin{equation*}
+A = 
+\begin{bmatrix}
+2 &amp; -1 &amp; &amp; &amp;    \\
+-1 &amp; 2 &amp; -1 &amp; &amp;   \\
+&amp;  &amp; \dotsm &amp; &amp; \\
+&amp; &amp; -1 &amp; 2 &amp; -1  \\
+&amp; &amp; &amp; -1 &amp; 2  \\
+\end{bmatrix}_{n}   .
+\end{equation*}
+\]
+</p><p>The gradient descent for sovling the above problem would be</p>
+<p style="text-align:center">
+\[
+\begin{align*}
+x_{k+1} &amp;= x_k - \gamma \nabla F(x_k) \\
+&amp;= x_k - \gamma A^T (Ax_k - b) .
+\end{align*}
+\]
+</p><p>In experiment, consider \(n = 50\) and simply set \(b = 0\). </p>
+<p><b>Creating matrix \(A\)</b>  	</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+A = 2*eye(n) - diag(ones(n-1,1), -1) - diag(ones(n-1,1), 1);
+</pre></div></div>
+<p><b>Parameters</b> All the parameters of the algorithm will be stored in a structure <tt>para</tt>   	</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+para.n = n; <span class="comment">% dimension of the problem</span>
+para.gamma = 1.0 /norm(A)^2; <span class="comment">% step-size</span>
+para.maxits = 1e6 + 1; <span class="comment">% maximum number of iteration</span>
+para.tol = 1e-16; <span class="comment">% stopping criterion <span class="statement">for</span> ||x_{k}-x_{k_1}||</span>
+para.x0 = 1e4*ones(n, 1); <span class="comment">% starting point</span>
+</pre></div></div>
+<p><b>Gradient and objective function</b> The gradient and objective function will be dealt by <tt>MATLAB function handle</tt></p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+objF = @(x) norm(A*x-b)^2 /2;
+gradF = @(x) (A')*(A*x - b);
+</pre></div></div>
+<p><b><tt>m-file</tt> source code for gradient descent</b> The code for gradient descent is written in a solo file. </p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+function [x, its, ek, fk] = func_GD(para, gradF, objF)
+
+<span class="comment">% this function returns</span>
+<span class="comment">%	x the solution of the problem</span>
+<span class="comment">%	total number of iteration needed to reach the stopping criterion</span>
+<span class="comment">%	history of ||x_{k} - x_{k-1}||</span>
+<span class="comment">%	history of objective function value F(x_{k})</span>
+
+<span class="comment">% get the parameters</span>
+n = para.n;
+gamma = para.gamma;
+tol = para.tol;
+maxits = para.maxits;
+
+ek = zeros(maxits, 1); <span class="comment">% record ||x_{k}-x_{k-1}||</span>
+fk = zeros(maxits, 1); <span class="comment">% record objective function value</span>
+
+x = para.x0; <span class="comment">% set the initial point</span>
+
+its = 1;
+while(its&lt;maxits)
+
+    fk(its) = objF(x);
+    dk(its) = norm(x-xsol, <span class="string">'fro'</span>);
+
+    x_old = x;
+    x = x - gamma*gradF(x);
+
+    <span class="comment">%%%%%%% compute residual and checking stopping criterion</span>
+    res = norm(x_old-x, <span class="string">'fro'</span>);
+    ek(its) = res;
+
+    <span class="statement">if</span> (res/prod(n)&lt;tol)||(res<span class="operator">&gt;</span>1e10); break; <span class="statement">end</span>
+
+    its = its + 1;
+
+<span class="statement">end</span>
+fprintf(<span class="string">'\n'</span>);
+
+ek = ek(1:its-1);
+fk = fk(1:its-1);
+</pre></div></div>
+<p><b><tt>m-file</tt> source code for FISTA</b></p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+function [x, its, ek, fk] = func_FISTA(para, gradF, objF)
+
+<span class="comment">% this function returns</span>
+<span class="comment">%	x the solution of the problem</span>
+<span class="comment">%	total number of iteration needed to reach the stopping criterion</span>
+<span class="comment">%	history of ||x_{k} - x_{k-1}||</span>
+<span class="comment">%	history of objective function value F(x_{k})</span>
+
+<span class="comment">% get the parameters</span>
+n = para.n;
+gamma = para.gamma;
+tol = para.tol;
+maxits = para.maxits;
+
+ek = zeros(maxits, 1); <span class="comment">% record ||x_{k}-x_{k-1}||</span>
+fk = zeros(maxits, 1); <span class="comment">% record objective function value</span>
+
+x = para.x0; <span class="comment">% set the initial point</span>
+y = x;
+t = 1; <span class="comment">% <span class="statement">for</span> FISTA parameter updates</span>
+
+its = 1;
+while(its&lt;maxits)
+
+    fk(its) = objF(x);
+    dk(its) = norm(x-xsol, <span class="string">'fro'</span>);
+
+    x_old = x;
+    x = y - gamma*gradF(y);
+
+    <span class="comment">% computing the FISTA parameter</span>
+    t_old = t;
+    t = (1 + sqrt(1+4*t_old^2)) /2;
+    a = <span class="statement">min</span>(1, (t_old-1) /t);
+
+    <span class="comment">% extrapolation update</span>
+    y = x + a*(x-x_old);
+
+    <span class="comment">%%%%%%% compute residual and checking stopping criterion</span>
+    res = norm(x_old-x, <span class="string">'fro'</span>);
+    ek(its) = res;
+
+    <span class="statement">if</span> (res/prod(n)&lt;tol)||(res<span class="operator">&gt;</span>1e10); break; <span class="statement">end</span>
+
+    its = its + 1;
+
+<span class="statement">end</span>
+fprintf(<span class="string">'\n'</span>);
+
+ek = ek(1:its-1);
+fk = fk(1:its-1);
+</pre></div></div>
+<p>Similarly, we can write the code for heavy-ball method and restarting FISTA. </p>
+<p><b>Comparison</b> The numerical comparison of <i>gradient descent, inertial gradient descent, FISTA and restarting FISTA</i> is illustrated in the figure below.</p>
+<table class="imgtable"><tr><td>
+<img src="files/nsopt/cmp-lse-fk.png" alt="" height="550px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<p><b>Codes for solving LASSO problem</b> It is very easy to have the code for LASSO problem once we have the code for gradient descent, as we only need to change</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+x = x - gamma*gradF(x);
+</pre></div></div>
+<p>to</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+x = wthresh( x - gamma*gradF(x), <span class="string">'s'</span>, mu*gamma);
+</pre></div></div>
+<p>where \(\mu\) is the tradeoff parameter in front of the \(\ell_1\)-norm</p>
+<div id="footer">
+<div id="footer-text">
+Page generated 2019-02-05, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
