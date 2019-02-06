@@ -1,8 +1,7 @@
 # jemdoc: menu{MENU}{nsopt.html}, notime
-== Comparison of gradient descent and its variants
+== Gradient descent and its variants
 
-
-Consider the following least square problem
+Here, we present simple comparison on gradient descent and its variants (heavy-ball method, Nesterov's accelerated scheme and restarting FISTA) when applying to solve a simple least square estimation problem which is described below
 \(
 \begin{equation*}
 \min_{x \in \mathbb{R}^n} \{ F(x) = \tfrac{1}{2} \|Ax - b\|^2 \}  ,
@@ -82,7 +81,6 @@ its = 1;
 while(its<maxits)
 
     fk(its) = objF(x);
-    dk(its) = norm(x-xsol, 'fro');
 	
     x_old = x;
     x = x - gamma*gradF(x);
@@ -131,7 +129,6 @@ its = 1;
 while(its<maxits)
 
     fk(its) = objF(x);
-    dk(its) = norm(x-xsol, 'fro');
 	
     x_old = x;
     x = y - gamma*gradF(y);

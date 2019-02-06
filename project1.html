@@ -5,7 +5,7 @@
 <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<title>Comparison of gradient descent and its variants</title>
+<title>Gradient descent and its variants</title>
 <!-- MathJax -->
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
@@ -31,9 +31,9 @@ MathJax.Hub.Config({
 </td>
 <td id="layout-content">
 <div id="toptitle">
-<h1>Comparison of gradient descent and its variants</h1>
+<h1>Gradient descent and its variants</h1>
 </div>
-<p>Consider the following least square problem</p>
+<p>Here, we present simple comparison on gradient descent and its variants (heavy-ball method, Nesterov's accelerated scheme and restarting FISTA) when applying to solve a simple least square estimation problem which is described below</p>
 <p style="text-align:center">
 \[
 \begin{equation*}
@@ -109,7 +109,6 @@ its = 1;
 while(its&lt;maxits)
 
     fk(its) = objF(x);
-    dk(its) = norm(x-xsol, <span class="string">'fro'</span>);
 
     x_old = x;
     x = x - gamma*gradF(x);
@@ -156,7 +155,6 @@ its = 1;
 while(its&lt;maxits)
 
     fk(its) = objF(x);
-    dk(its) = norm(x-xsol, <span class="string">'fro'</span>);
 
     x_old = x;
     x = y - gamma*gradF(y);
@@ -201,7 +199,7 @@ x = wthresh( x - gamma*gradF(x), <span class="string">'s'</span>, mu*gamma);
 <p>where \(\mu\) is the tradeoff parameter in front of the \(\ell_1\)-norm</p>
 <div id="footer">
 <div id="footer-text">
-Page generated 2019-02-05, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2019-02-06, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>
