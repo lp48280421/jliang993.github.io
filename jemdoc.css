@@ -1,4 +1,4 @@
-/* Default css file for jemdoc. */
+/* Modified css file for jemdoc. */
 
 table#tlayout {
 	border: none;
@@ -8,14 +8,13 @@ table#tlayout {
 
 body {
 	background: white;
-	font-size: 18px;
-	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif,"Microsoft YaHei";
-	font-family: Arial;
-	padding-bottom: 4px;
-	padding-right: 4px;
-	padding-left: 4px;
+	font-size: 19px;
+	font-family: Arial,Helvetica;
+	padding-bottom: 2px;
+	padding-right: 2px;
+	padding-left: 2px;
 	margin: 0 auto;	
-	width: 96%;
+/*	width: 100%;*/
 }
 
 #layout-menu {
@@ -62,7 +61,7 @@ pre, tt {
 }
 
 a, a > tt {
-	color: #224b8d;
+	color: #2d62b9;
 	text-decoration: none;
 }
 
@@ -71,7 +70,7 @@ a:hover {
 }
 
 #layout-menu a.current:link, #layout-menu a.current:visited {
-	color: #022b6d;
+	color: #0445af;
 	border-bottom: 1px gray solid;
 }
 #layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
@@ -126,7 +125,7 @@ strong {
 }
 
 h1, h2, h3 {
-	color: #4672b9;
+	color: #407acc;
 	margin-top: 0.5em;
 	margin-bottom: 0.3em;
 	padding-bottom: 0.2em;
@@ -168,7 +167,7 @@ pre {
 }
 
 div#footer {font-size: small;
-	border-top: 1px solid #c0c0c0;
+	border-top: 1px solid #cccccc;
 	padding-top: 0.1em;
 	margin-top: 4.0em;
 	color: #c0c0c0;

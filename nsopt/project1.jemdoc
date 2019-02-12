@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{nsopt.html}, notime
+# jemdoc: menu{MENUsub}{project1.html}, notime, addcss{../jemdoc.css}
 == Gradient descent and its variants
 
 Here, we present simple comparison on gradient descent and its variants (heavy-ball method, Nesterov's accelerated scheme and restarting FISTA) when applying to solve a simple least square estimation problem which is described below
