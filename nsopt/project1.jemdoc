@@ -159,7 +159,7 @@ Similarly, we can write the code for heavy-ball method and restarting FISTA.
 
 *Comparison* The numerical comparison of /gradient descent, inertial gradient descent, FISTA and restarting FISTA/ is illustrated in the figure below.
 ~~~
-{}{img_left}{files/nsopt/cmp-lse-fk.png}{}{}{550px}{}
+{}{img_left}{cmp-lse-fk.png}{}{}{550px}{}
 ~~~
 
 *Codes for solving LASSO problem* It is very easy to have the code for LASSO problem once we have the code for gradient descent, as we only need to change

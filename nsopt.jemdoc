@@ -19,10 +19,12 @@ Lectures are Monday and Wednesday, 11:00–12:00am, at MR9, Pav. B0.43.
 	. [nsopt/lecture-04.pdf Backward--Backward splitting]
 	. [nsopt/lecture-05.pdf Douglas--Rachford splitting]
 	. [nsopt/lecture-06.pdf Primal--Dual splitting]
+	. [nsopt/lecture-07.pdf Other operator splitting]
 	
 	
 == Projects
 	. [nsopt/project-01.pdf Project 1:] Compare gradient descent, heavy-ball method and Nesterov's acceleration scheme, and their proximal versions. ([nsopt/project1.html Instructions], [nsopt/data.zip data], [nsopt/src_Project1.zip MATLAB code])    
+	. [nsopt/project-02.pdf Project 2:] Principal component pursuit. ([nsopt/data_pcp.zip data]) /(About data: only matrix data is provided here, dimension of matrix $128\times128$, the rank of low-rank matrix is $6$ and the sparsity of sparse matrix is $25\%$)/
 
 == References
 	- S. Boyd and L. Vandenberghe. Convex optimization. Cambridge university press, 2004.
