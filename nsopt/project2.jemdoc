@@ -241,12 +241,12 @@ The numerical comparison of /Douglas--Rachford and its inertial versions/ is ill
 
 Example for which two inertial versions are almost the same.
 ~~~
-{}{img_left}{PCP_exact_DR-good.png}{}{}{450px}{}
+{}{img_left}{PCP_exact_DR-bad.png}{}{}{450px}{}
 ~~~
 
 Example for which $2$-step inertial DR is much faster under the same parameter choices. 
 ~~~
-{}{img_left}{PCP_exact_DR-bad.png}{}{}{450px}{}
+{}{img_left}{PCP_exact_DR-good.png}{}{}{450px}{}
 ~~~
 
 
