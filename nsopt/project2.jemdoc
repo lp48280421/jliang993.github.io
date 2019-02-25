@@ -37,7 +37,7 @@ For the above problem, there are two methods can be applied: Douglas--Rachford s
 \)
 
 
-==== 2.1 Douglas--Rachford splitting
+# ==== 2.1 Douglas--Rachford splitting
 
 
 Let's first define several notations
@@ -70,7 +70,7 @@ which can be handled by Douglas--Rachford splitting easily. Let $z = \begin{pmat
 	\begin{equation*}
 	\mathrm{prox}_{\gamma R} (z)
 	=
-	\begin{pmatrix}  \mathrm{prox}_{\gamma \|{\cdot}\|_1} (z_1) \\  \mathrm{prox}_{\gamma\mu \|{\cdot}\|_*} (z_2)  \end{pmatrix}  .
+	\begin{pmatrix}  \mathrm{prox}_{\gamma\mu \|{\cdot}\|_1} (z_1) \\  \mathrm{prox}_{\gamma \|{\cdot}\|_*} (z_2)  \end{pmatrix}  .
 	\end{equation*}
 	\)
 	- The projection mapping onto $\Omega$
