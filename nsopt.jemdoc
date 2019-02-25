@@ -25,7 +25,7 @@ Lectures are Monday and Wednesday, 11:00–12:00am, at MR9, Pav. B0.43.
 	
 == Projects
 	. [nsopt/project-01.pdf Project 1:] Compare gradient descent, heavy-ball method and Nesterov's acceleration scheme, and their proximal versions. ([nsopt/project1.html Instructions], [nsopt/data.zip data], [nsopt/src_Project1.zip MATLAB code])    
-	. [nsopt/project-02.pdf Project 2:] Principal component pursuit. ([nsopt/project2.html Instructions], [nsopt/src_Project2.zip MATLAB code]) /(About data: only matrix data is provided here, dimension of matrix $128\times128$, the rank of low-rank matrix is $6$ and the sparsity of sparse matrix is $25\%$)/
+	. [nsopt/project-02.pdf Project 2:] Principal component pursuit. ([nsopt/project2.html Instructions], [nsopt/src_Project2.zip MATLAB code]) 
 
 == References
 	- S. Boyd and L. Vandenberghe. Convex optimization. Cambridge university press, 2004.

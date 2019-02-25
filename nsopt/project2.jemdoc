@@ -229,7 +229,7 @@ sigma = 1e-2*std(f0(:));
 f = xs0 + xl0 + sigma*randn(n); % comment this line for the exact scenario
 ~~~
 
-Details of the codes can be found [nsopt/src_Project2.zip MATLAB here]. In the following, we mainly demonstrate the numerical performance comparison. 
+Details of the codes can be found [nsopt/src_Project2.zip here]. In the following, we mainly demonstrate the numerical performance comparison. 
 
 
 
