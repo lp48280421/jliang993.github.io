@@ -84,7 +84,7 @@ Therefore, the iteration of Douglas--Rachford the reads: let $\gamma > 0$, $z_{1
 \(
 \begin{equation*}
 \begin{aligned}
-u_{1,k+1} &= \mathcal{T}_{\gamma} ( 2v_{1,k} - z_{1,k} ) 	\\
+u_{1,k+1} &= \mathcal{T}_{\gamma\mu} ( 2v_{1,k} - z_{1,k} ) 	\\
 u_{2,k+1} &= U \mathcal{T}_{\gamma} ( \Sigma ) V^T	\\
 z_{1,k+1} &= z_{1,k} + u_{1,k+1} - v_{1,k}	\\
 z_{2,k+1} &= z_{2,k} + u_{2,k+1} - v_{2,k}	\\
