@@ -6,84 +6,51 @@
 
 
 == Preprint
-	. A. Lewis and JL. [https://arxiv.org/pdf/1807.03134 Partial Smoothness and Constant Rank].
+	- A. Lewis and JL. [https://arxiv.org/pdf/1807.03134 Partial Smoothness and Constant Rank].
 	#
-	. JL and C. Schönlieb. [files/journal/faster-fista.pdf Improving “Fast Iterative Shrinkage-Thresholding Algorithm”: Faster, Smarter and Greedier]. ([https://github.com/jliang993/Faster-FISTA {{<btcb>}}code{{</btcb>}}]) 
-	#
-	. C. Molinari, JL and J. Fadili. [files/journal/rate-fdr.pdf Convergence Rates of Forward–Douglas–Rachford Splitting Method]. ([https://github.com/jliang993/Rate-FDR {{<btcb>}}code{{</btcb>}}]) 
+	- JL and C. Schönlieb. [files/journal/faster-fista.pdf Improving “Fast Iterative Shrinkage-Thresholding Algorithm”: Faster, Smarter and Greedier]. ([https://github.com/jliang993/Faster-FISTA {{<btcb>}}code{{</btcb>}}]) 
+	
 
 
 == Journal papers
-	. JL, J. Fadili and G. Peyré. [files/journal/rate-pd.pdf Local Linear Convergence Analysis of Primal–Dual Splitting Methods], /Optimization/, 67(6): 821-853, 2018.
+	- C. Molinari, JL and J. Fadili. [files/journal/rate-fdr.pdf Convergence Rates of Forward–Douglas–Rachford Splitting Method], /Journal of Optimization Theory and Applications/, accepted. ([https://github.com/jliang993/Rate-FDR {{<btcb>}}code{{</btcb>}}])
 	#
-	. JL, J. Fadili and G. Peyré. [files/journal/rate-ifb.pdf Activity Identification and Local Linear Convergence of Forward-Backward-type methods], /SIAM Journal on Optimization/, 27(1): 408-437, 2017.
+	- JL, J. Fadili and G. Peyré. [files/journal/rate-pd.pdf Local Linear Convergence Analysis of Primal–Dual Splitting Methods], /Optimization/, 67(6): 821-853, 2018.
 	#
-	. JL, J. Fadili and G. Peyré. [files/journal/rate-dr.pdf Local Convergence Properties of Douglas–Rachford and Alternating Direction Method of Multipliers], /Journal of Optimization Theory and Applications/, 172(3): 874-913, 2017. (more details on ADMM can be found at [http://arxiv.org/pdf/1606.02116.pdf arXiv])
+	- JL, J. Fadili and G. Peyré. [files/journal/rate-ifb.pdf Activity Identification and Local Linear Convergence of Forward-Backward-type methods], /SIAM Journal on Optimization/, 27(1): 408-437, 2017.
 	#
-	. JL, J. Fadili and G. Peyré. [files/journal/rate-nonexpansive-opt.pdf Convergence Rates with Inexact Nonexpansive Operators], /Mathematical Programming/, 59(1): 403-434, 2016.
+	- JL, J. Fadili and G. Peyré. [files/journal/rate-dr.pdf Local Convergence Properties of Douglas–Rachford and Alternating Direction Method of Multipliers], /Journal of Optimization Theory and Applications/, 172(3): 874-913, 2017. (more details on ADMM can be found at [http://arxiv.org/pdf/1606.02116.pdf arXiv])
 	#
-	. JL, X. Zhang. [files/journal/jmiv-retinex.pdf Retinex by Higher order Total Variation L1 Decomposition], /Journal of Mathematical Imaging and Vision/, 52(3): 345-355, 2015.
+	- JL, J. Fadili and G. Peyré. [files/journal/rate-nonexpansive-opt.pdf Convergence Rates with Inexact Nonexpansive Operators], /Mathematical Programming/, 59(1): 403-434, 2016.
 	#
-	. JL, J. Ma and X. Zhang. [files/resources/journal/geophysics-ddtf.pdf Seismic Data Restoration via Data-driven Framelet], /Geophysics/, 79(3): 65-74, 2014.
+	- JL, X. Zhang. [files/journal/jmiv-retinex.pdf Retinex by Higher order Total Variation $L^1$ Decomposition], /Journal of Mathematical Imaging and Vision/, 52(3): 345-355, 2015.
 	#
-	. JL, J. Li, Z. Shen and X. Zhang. [files/journal/ipi-demosaicing.pdf Wavelet Frame based Color Image Demosaicing], /Inverse Problems and Imaging/, 7(3): 777-794, 2013.
+	- JL, J. Ma and X. Zhang. [files/resources/journal/geophysics-ddtf.pdf Seismic Data Restoration via Data-driven Framelet], /Geophysics/, 79(3): 65-74, 2014.
+	#
+	- JL, J. Li, Z. Shen and X. Zhang. [files/journal/ipi-demosaicing.pdf Wavelet Frame based Color Image Demosaicing], /Inverse Problems and Imaging/, 7(3): 777-794, 2013.
 
 
 == Conferences proceedings
-	. JL, C. Schönlieb. [files/conference/eusipco18.pdf Faster FISTA], /European Signal Processing Conference (EUSIPCO)/, 2018. ([https://github.com/jliang993/Faster-FISTA {{<btcb>}}code{{</btcb>}}]) 
+	- JL, C. Schönlieb. [files/conference/eusipco18.pdf Faster FISTA], /European Signal Processing Conference (EUSIPCO)/, 2018. ([https://github.com/jliang993/Faster-FISTA {{<btcb>}}code{{</btcb>}}]) 
 	#
-	. C. Poon, JL and C. Schönlieb. [files/conference/icml18.pdf Local Convergence Properties of SAGA\/Prox-SVRG and Acceleration], /International Conference on Machine Learning (ICML)/, 2018. ([https://github.com/jliang993/Local-VRSGD {{<btcb>}}code{{</btcb>}}]) 
+	- C. Poon, JL and C. Schönlieb. [files/conference/icml18.pdf Local Convergence Properties of SAGA\/Prox-SVRG and Acceleration], /International Conference on Machine Learning (ICML)/, 2018. ([https://github.com/jliang993/Local-VRSGD {{<btcb>}}code{{</btcb>}}]) 
 	#
-	. JL, J. Fadili and G. Peyré. [files/conference/nips16.pdf A Multi-step Inertial Forward-Backward Splitting Method for Non-convex Optimization], /Advances in Neural Information Processing Systems (NIPS)/, 2016. 
+	- JL, J. Fadili and G. Peyré. [files/conference/nips16.pdf A Multi-step Inertial Forward-Backward Splitting Method for Non-convex Optimization], /Advances in Neural Information Processing Systems (NIPS)/, 2016. 
 	#
-	. JL, J. Fadili and G. Peyré. [files/conference/gretsi15.pdf Identification en Temps Fini et Convergence Linéaire Locale de l'Algorithme Proximal Implicite-Explicite Inertiel], /Colloque sur le Traitement du Signal et des Images (GRETSI)/, 2015. 
+	- JL, J. Fadili and G. Peyré. [files/conference/gretsi15.pdf Identification en Temps Fini et Convergence Linéaire Locale de l'Algorithme Proximal Implicite-Explicite Inertiel], /Colloque sur le Traitement du Signal et des Images (GRETSI)/, 2015. 
 	#
-	. JL, J. Fadili, G. Peyré and R. Luke. [files/conference/ssvm15.pdf Activity Identification and Local Linear Convergence of Douglas-Rachford\/ADMM under Partial Smoothness], /International Conference on Scale Space and Variational Methods in Computer Vision (SSVM)/, 2015. 
+	- JL, J. Fadili, G. Peyré and R. Luke. [files/conference/ssvm15.pdf Activity Identification and Local Linear Convergence of Douglas-Rachford\/ADMM under Partial Smoothness], /International Conference on Scale Space and Variational Methods in Computer Vision (SSVM)/, 2015. 
 	# 
-	. JL, J. Fadili and G. Peyré. [files/conference/nips14.pdf Local Linear Convergence of Forward-Backward under Partial Smoothness], /Advances in Neural Information Processing Systems (NIPS)/, 2014. 
+	- JL, J. Fadili and G. Peyré. [files/conference/nips14.pdf Local Linear Convergence of Forward-Backward under Partial Smoothness], /Advances in Neural Information Processing Systems (NIPS)/, 2014. 
 	#
-	. JL, J. Fadili and G. Peyré. [files/conference/icip14.pdf On the Convergence Rates of Proximal Splitting Algorithms], /International Conference on Image Processing (ICIP)/, 2014. (*Top 10% Papers*) 
+	- JL, J. Fadili and G. Peyré. [files/conference/icip14.pdf On the Convergence Rates of Proximal Splitting Algorithms], /International Conference on Image Processing (ICIP)/, 2014. (*Top 10% Papers*) 
 
 
 == Ph.D. Thesis
-	- Convergence Rates of First-Order Splitting Methods ([files/thesis.pdf {{<btcb>}}link{{</btcb>}}])    
-		
-	
-# == Preprint
-# 	. [https://arxiv.org/pdf/1807.03134 Partial Smoothness and Constant Rank]: [https://people.orie.cornell.edu/aslewis/ A. Lewis] and JL.
-# 	#
-# 	. [files/journal/faster-fista.pdf Improving “Fast Iterative Shrinkage-Thresholding Algorithm”: Faster, Smarter and Greedier]: JL and [http://www.damtp.cam.ac.uk/user/cbs31/Home.html C. Schönlieb]. ([https://github.com/jliang993/Faster-FISTA {{<btcb>}}code{{</btcb>}}])
-# 	#
-# 	. [files/journal/rate-fdr.pdf Convergence Rates of Forward–Douglas–Rachford Splitting Method]: C. Molinari, JL and [https://fadili.users.greyc.fr/ J. Fadili]. ([https://github.com/jliang993/Rate-FDR {{<btcb>}}code{{</btcb>}}])
-#
-#
-# == Journal papers
-# 	. [files/journal/rate-pd.pdf Local Linear Convergence Analysis of Primal–Dual Splitting Methods]: JL, [https://fadili.users.greyc.fr/ J. Fadili] and [http://gpeyre.github.io/ G. Peyré], Optimization,67 (6), 821-853, 2018.
-# 	#
-# 	. [files/journal/rate-ifb.pdf Activity Identification and Local Linear Convergence of Forward-Backward-type methods]: JL, [https://fadili.users.greyc.fr/ J. Fadili] and [http://gpeyre.github.io/ G. Peyré], SIAM Journal on Optimization, 27 (1), 408-437, 2017.
-# 	#
-# 	. [files/journal/rate-dr.pdf Local Convergence Properties of Douglas–Rachford and Alternating Direction Method of Multipliers]: JL, [https://fadili.users.greyc.fr/ J. Fadili] and [http://gpeyre.github.io/ G. Peyré], Journal of Optimization Theory and Applications, 172 (3), 874-913, 2017. (more details on ADMM can be found at [http://arxiv.org/pdf/1606.02116.pdf arXiv])
-# 	#
-# 	. [files/journal/rate-nonexpansive-opt.pdf Convergence Rates with Inexact Nonexpansive Operators]: JL, [https://fadili.users.greyc.fr/ J. Fadili] and [http://gpeyre.github.io/ G. Peyré], Mathematical Programming, 59 (1), 403-434, 2016.
-# 	#
-# 	. [files/journal/jmiv-retinex.pdf Retinex by Higher order Total Variation L1 Decomposition]: JL, [http://math.sjtu.edu.cn/faculty/xqzhang/ X. Zhang], Journal of Mathematical Imaging and Vision, 52(3):345-355, 2015.
-# 	#
-# 	. [files/resources/journal/geophysics-ddtf.pdf Seismic Data Restoration via Data-driven Framelet]: JL, [http://homepage.hit.edu.cn/jma J. Ma] and [http://math.sjtu.edu.cn/faculty/xqzhang/ X. Zhang], Geophysics, 79(3):65-74, 2014.
-# 	#
-# 	. [files/journal/ipi-demosaicing.pdf Wavelet Frame based Color Image Demosaicing]: JL, J. Li, [http://www.math.nus.edu.sg/~matzuows/ Z. Shen] and [http://math.sjtu.edu.cn/faculty/xqzhang/ X. Zhang], Inverse Problems and Imaging, 7(3):777-794, 2013.
-#
-#
-# == Conferences proceedings
-# 	. [files/conference/eusipco18.pdf Faster FISTA]: JL, [http://www.damtp.cam.ac.uk/user/cbs31/Home.html C. Schönlieb], European Signal Processing Conference (EUSIPCO), 2018. ([https://github.com/jliang993/Faster-FISTA {{<btcb>}}code{{</btcb>}}])
-# 	#
-# 	. [files/conference/icml18.pdf Local Convergence Properties of SAGA/Prox-SVRG and Acceleration]: [http://www.damtp.cam.ac.uk/user/cmhsp2/ C. Poon], JL and [http://www.damtp.cam.ac.uk/user/cbs31/Home.html C. Schönlieb], Int. Conf on Machine Learning (ICML), 2018. ([https://github.com/jliang993/Local-VRSGD {{<btcb>}}code{{</btcb>}}])
-# 	#
-# 	. [files/conference/nips16.pdf A Multi-step Inertial Forward-Backward Splitting Method for Non-convex Optimization]: JL, [https://fadili.users.greyc.fr/ J. Fadili] and [http://gpeyre.github.io/ G. Peyré], Advances in Neural Information Processing Systems (NIPS), 2016.
-# 	#
-# 	. [files/conference/gretsi15.pdf Identification en Temps Fini et Convergence Linéaire Locale de l'Algorithme Proximal Implicite-Explicite Inertiel]: JL, [https://fadili.users.greyc.fr/ J. Fadili] and [http://gpeyre.github.io/ G. Peyré], Colloque sur le Traitement du Signal et des Images (GRETSI), 2015.
-# 	#
-# 	. [files/conference/ssvm15.pdf Activity Identification and Local Linear Convergence of Douglas-Rachford/ADMM under Partial Smoothness]: JL, [https://fadili.users.greyc.fr/ J. Fadili], [http://gpeyre.github.io/ G. Peyré] and [http://num.math.uni-goettingen.de/~r.luke/ R. Luke], 5th Int. Conf. on Scale Space and Variational Methods in Computer Vision (SSVM), 2015.
-# 	#
-# 	. [files/conference/nips14.pdf Local Linear Convergence of Forward-Backward under Partial Smoothness]: JL, [https://fadili.users.greyc.fr/ J. Fadili] and [http://gpeyre.github.io/ G. Peyré], Advances in Neural Information Processing Systems (NIPS), 2014.
-# 	#
-# 	. [files/conference/icip14.pdf On the Convergence Rates of Proximal Splitting Algorithms]: JL, [https://fadili.users.greyc.fr/ J. Fadili] and [http://gpeyre.github.io/ G. Peyré], IEEE Int. Conf. on Image Processing (ICIP), 2014. (*Top 10% Papers*)
+	: {Convergence Rates of First-Order Splitting Methods ([files/thesis.pdf *link*])} *Chapter 4* constains unpublished result on a general multi-step inertial operator splitting scheme for monotone inclusion problem, which can be used to derive multi-step inertial versions of  \n ~~~~~ - Forward--Backward splitting, Generalised Forward--Backward, Forward--Douglas--Rachford splitting \n ~~~~~ - A class of Primal--Dual splitting methods \n ~~~~~ - Douglas--Rachford splitting and Alternating Direction Method of Multipliers (ADMM)  
+
+
+
+
+
+

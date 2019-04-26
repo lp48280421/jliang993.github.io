@@ -10,8 +10,6 @@ Lectures are Monday and Wednesday, 11:00–12:00am, at MR9, Pav. B0.43.
 
 
 == Lecture slides
-*Acknowledgement: some slides are based on the lecture slides of [https://web.stanford.edu/~boyd/ Prof. Stephen Boyd] (Stanford) and [http://www.seas.ucla.edu/~vandenbe/ Prof. Lieven Vandenberghe] (UCLA).*
-	#
 	. [nsopt/introduction.pdf Introduction] 
 	. [nsopt/lecture-01.pdf Gradient method]
 	. [nsopt/lecture-02.pdf Proximal gradient method]
@@ -22,7 +20,9 @@ Lectures are Monday and Wednesday, 11:00–12:00am, at MR9, Pav. B0.43.
 	. [nsopt/lecture-07.pdf Other operator splitting methods]
 	. [nsopt/lecture-08.pdf Alternating direction method of multipliers]
 	. [nsopt/lecture-09.pdf Non-convex optimisation]
-	
+	. [nsopt/lecture-10.pdf Stochastic optimisation]
+
+*Acknowledgement: some slides are based on the lecture slides of [https://web.stanford.edu/~boyd/ Prof. Stephen Boyd] (Stanford) and [http://www.seas.ucla.edu/~vandenbe/ Prof. Lieven Vandenberghe] (UCLA).*
 	
 == Projects
 	. [nsopt/project-01.pdf Project 1:] Compare gradient descent, heavy-ball method and Nesterov's acceleration scheme, and their proximal versions. ([nsopt/project1.html Instructions], [nsopt/data.zip data], [nsopt/src_Project1.zip MATLAB code])    
