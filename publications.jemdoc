@@ -19,7 +19,7 @@
 
 
 == Journal papers
-	- C. Molinari, JL and J. Fadili. [files/journal/rate-fdr.pdf Convergence Rates of Forward–Douglas–Rachford Splitting Method], /Journal of Optimization Theory and Applications/, accepted. ([https://github.com/jliang993/Rate-FDR {{<btcb>}}code{{</btcb>}}])
+	- C. Molinari, JL and J. Fadili. [files/journal/rate-fdr.pdf Convergence Rates of Forward–Douglas–Rachford Splitting Method], /Journal of Optimization Theory and Applications/, 182(2): 606-639, 2019. ([https://github.com/jliang993/Rate-FDR {{<btcb>}}code{{</btcb>}}])
 	#
 	- JL, J. Fadili and G. Peyré. [files/journal/rate-pd.pdf Local Linear Convergence Analysis of Primal–Dual Splitting Methods], /Optimization/, 67(6): 821-853, 2018.
 	#
