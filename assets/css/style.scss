@@ -1,0 +1,128 @@
+---
+---
+
+@import 'jekyll-theme-cayman';
+
+
+
+.MathJax {
+font-size: 1.2rem !important;
+}
+
+
+
+//============================================
+// Mouse hovering
+//============================================
+a {
+    //color: #428bca;
+    text-decoration: none;
+}
+a:focus, a:hover {
+    color: #1a8cff;
+    font-weight: 550;
+    text-decoration: none;
+}
+a:focus {
+    outline: dotted thin;
+    outline: -webkit-focus-ring-color auto 5px;
+    outline-offset: -2px;
+    /*background-color: rgba(0,0,0,.4);*/
+}
+
+//============================================
+// gradient background img
+//============================================
+#gradRed2Yellow {
+  height: 500px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, red, yellow); /* Standard syntax (must be last) */
+}
+#gradYellow2Green {
+  height: 500px;
+  background-color: yellow; 
+  background-image: linear-gradient(to bottom right, yellow, green); 
+}
+#gradGreen2Blue {
+  height: 500px;
+  background-color: green; 
+  background-image: linear-gradient(to bottom right, green, blue);
+}
+#gradBlue2Red {
+  height: 500px;
+  background-color: blue; 
+  background-image: linear-gradient(to bottom right, blue, red);
+}
+
+
+
+
+//============================================
+// tabcontent
+//============================================
+ /* Style the tab */
+.tab {
+  //overflow: hidden;
+  //border: 1px solid #ccc;
+  //background-color: #f1f1f1;
+  overflow: hidden;
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  // height: 36px;
+  vertical-align: center;
+  font-weight: 550;
+  color: rgb(169,169,169);
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+//  background-color: inherit;
+//  float: left;
+//  border: none;
+//  outline: none;
+//  cursor: pointer;
+//  padding: 14px 16px;
+//  transition: 0.3s;
+background-color: inherit;
+float: center;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 8px 8px;
+transition: 0.3s;
+font-size: 16px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    color: rgb(72,72,72);
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+//.tabcontent {
+//  display: none;
+//  padding: 6px 12px;
+//  border: 1px solid #ccc;
+//  border-top: none;
+//}
+.tabcontent {
+  display: none;
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 6px 6px;
+  border: 1px solid #ccc;
+  border-top: none;
+  padding-top: 18px;
+  padding-bottom: 0px;
+  // border-color: rgb(255, 109, 109);
+}
