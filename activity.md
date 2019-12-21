@@ -9,7 +9,7 @@ description: Invited talks, Seminars and Workshop presentations
 
 #### Event organised
 
-<ul style="margin-top:1rem">
+<ul style="margin-top:1rem; margin-right:1rem">
 {% for item in site.data.act_event %}
 <!-- {{ item }} -->
 <li>

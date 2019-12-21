@@ -5,11 +5,28 @@ description: "Welcome to my homepage"
 ---
 
 
-### About
-I am currently a **Leverhulme Early Career Fellowship** at [Department of Applied Mathematics and Theoretical Physics](http://www.damtp.cam.ac.uk/) [University of Cambridge](https://www.cam.ac.uk/). I am also a member of the group [Cambridge Image Analysis](http://www.damtp.cam.ac.uk/research/cia/). 
+
+<table class="tg" style="width:100s%;table-layout:fixed;border:0px; margin-left:auto;margin-right:auto;">
+        <tr>
+          <td style="border:0px;">
+               <div class="icon_container">
+                 <img src="assets/img/jingwei.jpeg" style="min-width:200px;max-width:250px;">
+               </div>
+          </td>
+          <td style="border:0px;">
+              <p>I am currently a Leverhulme Early Career Fellowship at <a href="http://www.damtp.cam.ac.uk/">Department of Applied Mathematics and Theoretical Physics</a> <a href="https://www.cam.ac.uk/">University of Cambridge</a>. I am also a member of the group <a href="http://www.damtp.cam.ac.uk/research/cia/">Cambridge Image Analysis</a>. </p>
 
 
-I received my Ph.D. from ENSICAEN and University of Caen Normandy advised by [Jalal Fadili](https://fadili.users.greyc.fr/) and [Gabriel Peyré](http://gpeyre.github.io/). I received my master degree from Shanghai Jiao Tong University under the supervision of [Xiaoqun Zhang](http://math.sjtu.edu.cn/faculty/xqzhang/). Prior to that I obtained my bachlor degree in Electrical & Information Engineering from Nanjing University of Posts and Telecommunications.
+              <p>I received my Ph.D. from ENSICAEN and University of Caen Normandy advised by <a href="https://fadili.users.greyc.fr/">Jalal Fadili</a> and <a href="http://gpeyre.github.io/">Gabriel Peyré</a>. I received my master degree from Shanghai Jiao Tong University under the supervision of <a href="http://math.sjtu.edu.cn/faculty/xqzhang/">Xiaoqun Zhang</a>. Prior to that I obtained my bachlor degree in Electrical & Information Engineering from Nanjing University of Posts and Telecommunications.</p>
+          </td>
+        </tr>
+</table>
+
+<!-- ### About
+I am currently a Leverhulme Early Career Fellowship at [Department of Applied Mathematics and Theoretical Physics](http://www.damtp.cam.ac.uk/) [University of Cambridge](https://www.cam.ac.uk/). I am also a member of the group [Cambridge Image Analysis](http://www.damtp.cam.ac.uk/research/cia/).
+
+
+I received my Ph.D. from ENSICAEN and University of Caen Normandy advised by [Jalal Fadili](https://fadili.users.greyc.fr/) and [Gabriel Peyré](http://gpeyre.github.io/). I received my master degree from Shanghai Jiao Tong University under the supervision of [Xiaoqun Zhang](http://math.sjtu.edu.cn/faculty/xqzhang/). Prior to that I obtained my bachlor degree in Electrical & Information Engineering from Nanjing University of Posts and Telecommunications. -->
 
 
 ##### Contact

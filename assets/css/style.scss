@@ -10,6 +10,200 @@ font-size: 1.2rem !important;
 }
 
 
+.profile_img {
+  vertical-align: middle;
+  //width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+////============================================
+//// navigation bar
+////============================================
+.bg_img {
+  /* The image used */
+  background-image: url("../img/qmsht/qmsht01-600p.jpg");
+
+  min-height: 380px;
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+.bg_img_index {
+  background-image: url("../img/qmsht/qmsht01-600p.jpg");
+  min-height: 380px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.bg_img_pub {
+  background-image: url("../img/qmsht/qmsht02-600p.jpg");
+  min-height: 380px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.bg_img_act {
+  background-image: url("../img/qmsht/qmsht03-600p.jpg");
+  min-height: 380px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.bg_img_code {
+  background-image: url("../img/qmsht/qmsht04-600p.jpg");
+  min-height: 380px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.bg_img_tea {
+  background-image: url("../img/qmsht/qmsht05-600p.jpg");
+  min-height: 380px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.bg_img_math {
+  background-image: url("../img/qmsht/qmsht06-600p.jpg");
+  min-height: 380px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: sticky;
+  top: 0;
+  //margin: 20px;
+  //width: auto;
+  width: 100%;
+  //margin-left: 10%;
+  margin-right: auto;
+}
+
+/* The navbar */
+.topnav {
+  //position: sticky;
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.3);
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.topnav a:hover {
+  background-color: rgba(0,0,0,0.2);
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
+@include small {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@include small {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: center;
+    }
+}
+
+
+a.topnav_home {
+    float: left;
+    margin-left:11%;
+    
+    @include medium {margin-left:1%;}
+    @include small {margin-left:1%;}
+}
+ 
+
+a.topnav_item {
+    float: right;
+}
+
+a.topnav_right {
+    float: right;
+    margin-right:11%;
+    
+    @include medium {margin-right:1%;}
+    @include small {margin-right:1%;}
+}
+
+
+
+.page_title {
+  text-align: center;
+  color: white;
+  margin-top: 80px;
+  //position: relative;
+  
+  text-shadow:-1px 0 0.1em #808080, 0 1px 0.1em #808080, 1px 0 0.1em #808080, 0 -1px 0.1em #808080;
+
+  @include large { font-size: 2.75rem; }
+  @include medium { font-size: 2.0rem; }
+  @include small { font-size: 1.75rem; }
+}
+
+.page_description {
+  text-align: center;
+  font-weight: normal;
+  color: white;
+  opacity: 0.88;
+  
+  text-shadow:-1px 0 0.05em #808080, 0 1px 0.05em #808080, 1px 0 0.05em #808080, 0 -1px 0.05em #808080;
+
+  @include large { font-size: 1.5rem; }
+
+  @include medium { font-size: 1.25rem; }
+
+  @include small { font-size: 1rem; }
+}
+
+
+
 
 //============================================
 // Mouse hovering
@@ -124,5 +318,6 @@ font-size: 1.0rem;
   border-top: none;
   padding-top: 18px;
   padding-bottom: 0px;
+  padding-right: 16px;
   // border-color: rgb(255, 109, 109);
 }

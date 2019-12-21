@@ -26,7 +26,7 @@ Lectures are Monday and Wednesday, 11:00–12:00am, at MR9, Pav. B0.43.  -->
 10. [Non-convex optimisation](nsopt/slides/lecture-09.pdf)
 11. [Stochastic optimisation](nsopt/slides/lecture-10.pdf)
 
-**Acknowledgement:** some slides are based on the lecture slides of [Prof. Stephen Boyd](https://web.stanford.edu/~boyd/) (Stanford) and [Prof. Lieven Vandenberghe](http://www.seas.ucla.edu/~vandenbe/) (UCLA).
+**Acknowledgement:** some slides are based on the lecture slides of [Prof. Stephen Boyd](https://web.stanford.edu/~boyd/) and [Prof. Lieven Vandenberghe](http://www.seas.ucla.edu/~vandenbe/).
 
 ##### Projects
 - [Project 1](nsopt/projects/project-01.pdf) Compare gradient descent, heavy-ball method and Nesterov's acceleration scheme, and their proximal versions. ([Instructions](nsopt/project1), [data](nsopt/projects/data.zip), [MATLAB code](nsopt/src_Project1.zip))    
