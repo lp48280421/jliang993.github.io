@@ -450,7 +450,7 @@ a:hover { text-decoration: underline; }
 
 .MathJax { font-size: 1.2rem !important; }
 
-.profile_img { vertical-align: middle; height: 50px; border-radius: 50%; }
+.profile_img { vertical-align: middle; min-width: 100px !important; max-width: 200px !important; }
 
 .bg_img { /* The image used */ background-image: url("../img/qmsht/qmsht01-600p.jpg"); min-height: 380px; width: 100%; /* Center and scale the image nicely */ background-position: center; background-repeat: no-repeat; background-size: cover; /* Needed to position the navbar */ position: relative; }
 
