@@ -154,19 +154,23 @@ font-size: 1.2rem !important;
 
 a.topnav_home {
     float: left;
+    //width: 50%;
     margin-left:11%;
     
-    @include medium {margin-left:1%;}
+    @include medium {margin-left:1%; }
     @include small {margin-left:1%;}
 }
  
-
 a.topnav_item {
     float: right;
+    //width: 50%;
+    @include medium {margin-left:1%;}
+    @include small {margin-left:1%;}
 }
 
 a.topnav_right {
     float: right;
+    //width: 50%;
     margin-right:11%;
     
     @include medium {margin-right:1%;}
