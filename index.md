@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Jingwei Liang (梁经纬)"
-description: "Homepage of Jingwei Liang"
+description: "Welcome to my homepage"
 ---
 
 
@@ -15,7 +15,7 @@ I received my Ph.D. from ENSICAEN and University of Caen Normandy advised by [Ja
 ##### Contact
 - E-mail: jl993 AT cam.ac.uk
 - Office: Pav. F2.04
-- Address: DAMTP, Centre for Mathematical Sciences, Wilberforce Road, Cambridge, CB3 0WA, United Kingdom
+- Address: DAMTP, Centre for Mathematical Sciences, Wilberforce Road, Cambridge, CB3 0WA, UK
 
 ##### Research interests
 * Non-smooth Optimization, Image Processing.
