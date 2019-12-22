@@ -522,7 +522,7 @@ a.topnav_right { float: right; margin-right: 11%; }
 
 a { text-decoration: none; }
 
-a:focus, a:hover { color: #1a8cff; font-weight: 550; text-decoration: none; }
+a:focus, a:hover { color: #1a8cff; font-style: italic; text-decoration: none; }
 
 a:focus { outline: dotted thin; outline: -webkit-focus-ring-color auto 5px; outline-offset: -2px; /*background-color: rgba(0,0,0,.4);*/ }
 

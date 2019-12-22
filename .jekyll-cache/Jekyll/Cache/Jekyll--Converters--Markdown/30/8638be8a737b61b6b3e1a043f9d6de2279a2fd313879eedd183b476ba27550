@@ -1,62 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-
-    
-    <meta charset="UTF-8">
-
-<!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Activities | Jingwei Liang (梁经纬)</title>
-<meta name="generator" content="Jekyll v4.0.0" />
-<meta property="og:title" content="Activities" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Invited talks, Seminars and Workshop presentations" />
-<meta property="og:description" content="Invited talks, Seminars and Workshop presentations" />
-<link rel="canonical" href="http://localhost:4000/activity.html" />
-<meta property="og:url" content="http://localhost:4000/activity.html" />
-<meta property="og:site_name" content="Jingwei Liang (梁经纬)" />
-<script type="application/ld+json">
-{"description":"Invited talks, Seminars and Workshop presentations","@type":"WebPage","url":"http://localhost:4000/activity.html","headline":"Activities","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    
-    <link rel="icon" href="assets/icon/dota2_64.png">
-    <link rel="stylesheet" href="/assets/css/style.css?v=">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  
-  <body>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
-
-    <header>
-      <div class="bg_img_act">
-          <div class="container">
-              <div class="topnav" id="myTopnav">
-                <a href="index" class="topnav_home">Homepage</a>
-                <a href="teaching" class="topnav_right">Teaching</a>
-                <a href="code" class="topnav_item">Code</a>
-                <a href="activity" class="topnav_item">Activities</a>
-                <a href="publication" class="topnav_item">Publications</a>
-                <a href="index" class="topnav_item">Home</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                  <i class="fa fa-bars"></i>
-                </a>
-              </div>
-          </div>
-          
-          <div>
-              <h1 class="page_title">Activities</h1>
-              <h2 class="page_description">Invited talks, Seminars and Workshop presentations</h2>
-          </div>
-      </div>
-    </header>
-
-    <main id="content" class="main-content" role="main">
-      <h4 id="event-organised">Event organised</h4>
+I"k9<h4 id="event-organised">Event organised</h4>
 
 <ul style="margin-top:1rem; margin-right:1rem">
 
@@ -85,9 +27,14 @@
 <div id="Invited" class="tabcontent">
     <ul style="margin-left:1.5rem; padding:0;">
     
-    <!-- {"title"=>"Trajectory of First-order Methods and Adaptive Acceleration", "conference"=>"Workshop on Efficient Algorithms in Data Science, Learning, and Computational Physics", "place"=>"Tsinghua Sanya International Mathematics Forum (TSIMF), Sanya China", "date"=>"12 - 16 January, 2020"} -->
+    <!-- {"title"=>"Trajectory of Alternating Direction Method of Multipliers and Adaptive Acceleration", "conference"=>"27th IFIP TC7 Conference on System Modeling and Optimization", "place"=>"Quito, Ecuador", "date"=>"31 August - 4 September, 2020"} -->
     <li>
-      Trajectory of First-order Methods and Adaptive Acceleration: Workshop on Efficient Algorithms in Data Science, Learning, and Computational Physics, Tsinghua Sanya International Mathematics Forum (TSIMF), Sanya China, 12 - 16 January, 2020. 
+      Trajectory of Alternating Direction Method of Multipliers and Adaptive Acceleration: 27th IFIP TC7 Conference on System Modeling and Optimization, Quito, Ecuador, 31 August - 4 September, 2020. 
+    </li>
+    
+    <!-- {"title"=>"Trajectory of Alternating Direction Method of Multipliers and Adaptive Acceleration", "conference"=>"Workshop on Efficient Algorithms in Data Science, Learning, and Computational Physics", "place"=>"Tsinghua Sanya International Mathematics Forum (TSIMF), Sanya China", "date"=>"12 - 16 January, 2020"} -->
+    <li>
+      Trajectory of Alternating Direction Method of Multipliers and Adaptive Acceleration: Workshop on Efficient Algorithms in Data Science, Learning, and Computational Physics, Tsinghua Sanya International Mathematics Forum (TSIMF), Sanya China, 12 - 16 January, 2020. 
     </li>
     
     <!-- {"title"=>"Geometry based Acceleration for Non-smooth Optimisation", "conference"=>"International Conference on Continuous Optimization (ICCOPT)", "place"=>"Berlin Germany", "date"=>"5 - 8 August, 2019"} -->
@@ -141,9 +88,9 @@
 <div id="Seminar" class="tabcontent">
     <ul style="margin-left:1.5rem; padding:0;">
     
-    <!-- {"title"=>"Geometry of Non-smooth Optimization and Beyond", "place"=>"Ecole polytechnique fédérale de Lausanne (EPFL)", "date"=>"3 April, 2020"} -->
+    <!-- {"title"=>"Trajectory of Alternating Direction Method of Multipliers and Adaptive Acceleration", "place"=>"Institute of Natural Sciences, Shanghai Jiao Tong University", "date"=>"9 January, 2020"} -->
     <li>
-      Geometry of Non-smooth Optimization and Beyond: Ecole polytechnique fédérale de Lausanne (EPFL), 3 April, 2020. 
+      Trajectory of Alternating Direction Method of Multipliers and Adaptive Acceleration: Institute of Natural Sciences, Shanghai Jiao Tong University, 9 January, 2020. 
     </li>
     
     <!-- {"title"=>"On Bias in Stochastic Gradient Descent", "place"=>"Institute of Natural Sciences, Shanghai Jiao Tong University", "date"=>"9 January, 2020"} -->
@@ -151,14 +98,9 @@
       On Bias in Stochastic Gradient Descent: Institute of Natural Sciences, Shanghai Jiao Tong University, 9 January, 2020. 
     </li>
     
-    <!-- {"title"=>"Trajectory of Alternating Direction Method of Multipliers and Adaptive Acceleration", "place"=>"Institute of Natural Sciences, Shanghai Jiao Tong University", "date"=>"9 January, 2020"} -->
+    <!-- {"title"=>"Stochastic Proximal Alternating Linearisation Method for Non-smooth and Non-convex Optimisation", "place"=>"University College London", "date"=>"15 November, 2019"} -->
     <li>
-      Trajectory of Alternating Direction Method of Multipliers and Adaptive Acceleration: Institute of Natural Sciences, Shanghai Jiao Tong University, 9 January, 2020. 
-    </li>
-    
-    <!-- {"title"=>"On Bias in Stochastic Gradient Descent", "place"=>"University College London", "date"=>"15 November, 2019"} -->
-    <li>
-      On Bias in Stochastic Gradient Descent: University College London, 15 November, 2019. 
+      Stochastic Proximal Alternating Linearisation Method for Non-smooth and Non-convex Optimisation: University College London, 15 November, 2019. 
     </li>
     
     <!-- {"title"=>"Trajectory of Alternating Direction Method of Multipliers and Adaptive Acceleration", "place"=>"Imperial College London", "date"=>"28 October, 2019"} -->
@@ -227,78 +169,37 @@
 <div id="Workshop" class="tabcontent">
     <ul style="margin-left:1.5rem; padding:0;">
     
-    <!-- {"title"=>"Local Linear Convergence of Variance Reduced Stochastic Gradient Methods for Low Complexity Regularization", "workshop"=>"Signal Processing with Adaptive Sparse Structured Representations (SPARS)", "place"=>"Toulouse France", "date"=>"1 - 4 July, 2019"} -->
+    <!-- {"title"=>"Local Linear Convergence of Variance Reduced Stochastic Gradient Methods for Low Complexity Regularization", "workshop"=>"Signal Processing with Adaptive Sparse Structured Representations (SPARS)", "place"=>"Toulouse France", "date"=>"July 1-4 2019"} -->
     <li>
-      Local Linear Convergence of Variance Reduced Stochastic Gradient Methods for Low Complexity Regularization: Signal Processing with Adaptive Sparse Structured Representations (SPARS), Toulouse France, 1 - 4 July, 2019. 
+      Local Linear Convergence of Variance Reduced Stochastic Gradient Methods for Low Complexity Regularization: Signal Processing with Adaptive Sparse Structured Representations (SPARS), Toulouse France, July 1-4 2019. 
     </li>
     
-    <!-- {"title"=>"Accelerating First-Order Methods via Linear Prediction", "workshop"=>"Signal Processing with Adaptive Sparse Structured Representations (SPARS)", "place"=>"Toulouse France", "date"=>"1 - 4 July, 2019"} -->
+    <!-- {"title"=>"Accelerating First-Order Methods via Linear Prediction", "workshop"=>"Signal Processing with Adaptive Sparse Structured Representations (SPARS)", "place"=>"Toulouse France", "date"=>"July 1-4 2019"} -->
     <li>
-      Accelerating First-Order Methods via Linear Prediction: Signal Processing with Adaptive Sparse Structured Representations (SPARS), Toulouse France, 1 - 4 July, 2019. 
+      Accelerating First-Order Methods via Linear Prediction: Signal Processing with Adaptive Sparse Structured Representations (SPARS), Toulouse France, July 1-4 2019. 
     </li>
     
-    <!-- {"title"=>"Local Linear Convergence of Primal–Dual splitting methods for Low Complexity Regularization", "workshop"=>"Signal Processing with Adaptive Sparse Structured Representations (SPARS)", "place"=>"Lisbon Portugal", "date"=>"4 - 8 June, 2017"} -->
+    <!-- {"title"=>"Local Linear Convergence of Primal–Dual splitting methods for Low Complexity Regularization", "workshop"=>"Signal Processing with Adaptive Sparse Structured Representations (SPARS)", "place"=>"Lisbon Portugal", "date"=>"June 4-8 2017"} -->
     <li>
-      Local Linear Convergence of Primal–Dual splitting methods for Low Complexity Regularization: Signal Processing with Adaptive Sparse Structured Representations (SPARS), Lisbon Portugal, 4 - 8 June, 2017. 
+      Local Linear Convergence of Primal–Dual splitting methods for Low Complexity Regularization: Signal Processing with Adaptive Sparse Structured Representations (SPARS), Lisbon Portugal, June 4-8 2017. 
     </li>
     
-    <!-- {"title"=>"Local Linear Convergence of Forward-Backward-type and Douglass-Rachford/ADMM methods for Low Complexity Regularizations", "workshop"=>"Signal Processing with Adaptive Sparse Structured Representations (SPARS)", "place"=>"Cambridge UK", "date"=>"6 - 9 July, 2015"} -->
+    <!-- {"title"=>"Local Linear Convergence of Forward-Backward-type and Douglass-Rachford/ADMM methods for Low Complexity Regularizations", "workshop"=>"Signal Processing with Adaptive Sparse Structured Representations (SPARS)", "place"=>"Cambridge UK", "date"=>"July 6-9 2015"} -->
     <li>
-      Local Linear Convergence of Forward-Backward-type and Douglass-Rachford/ADMM methods for Low Complexity Regularizations: Signal Processing with Adaptive Sparse Structured Representations (SPARS), Cambridge UK, 6 - 9 July, 2015. 
+      Local Linear Convergence of Forward-Backward-type and Douglass-Rachford/ADMM methods for Low Complexity Regularizations: Signal Processing with Adaptive Sparse Structured Representations (SPARS), Cambridge UK, July 6-9 2015. 
     </li>
     
-    <!-- {"title"=>"Activity Identification & Local Linear Convergence of Forward-Backward and Variants", "workshop"=>"Journées annuelles 2014 du GdR MOA", "place"=>"XLIM, Université de Limoges, France", "date"=>"3 - 5 December, 2014"} -->
+    <!-- {"title"=>"Activity Identification & Local Linear Convergence of Forward-Backward and Variants", "workshop"=>"Journées annuelles 2014 du GdR MOA", "place"=>"XLIM, Université de Limoges, France", "date"=>"December 3-5 2014"} -->
     <li>
-      Activity Identification &amp; Local Linear Convergence of Forward-Backward and Variants: Journées annuelles 2014 du GdR MOA, XLIM, Université de Limoges, France, 3 - 5 December, 2014. 
+      Activity Identification &amp; Local Linear Convergence of Forward-Backward and Variants: Journées annuelles 2014 du GdR MOA, XLIM, Université de Limoges, France, December 3-5 2014. 
     </li>
     
-    <!-- {"title"=>"Iteration-Complexity for Inexact Proximal Splitting Algorithms", "workshop"=>"Int. Traveling Workshop on Interactions between Sparse models and Technology (iTWIST)", "place"=>"Namur Belgium", "date"=>"27 - 29 August, 2014"} -->
+    <!-- {"title"=>"Iteration-Complexity for Inexact Proximal Splitting Algorithms", "workshop"=>"Int. Traveling Workshop on Interactions between Sparse models and Technology (iTWIST)", "place"=>"Namur Belgium", "date"=>"August 27-29 2014"} -->
     <li>
-      Iteration-Complexity for Inexact Proximal Splitting Algorithms: Int. Traveling Workshop on Interactions between Sparse models and Technology (iTWIST), Namur Belgium, 27 - 29 August, 2014. 
+      Iteration-Complexity for Inexact Proximal Splitting Algorithms: Int. Traveling Workshop on Interactions between Sparse models and Technology (iTWIST), Namur Belgium, August 27-29 2014. 
     </li>
     
     </ul>
 </div>
 
-
-
-      <!-- <footer class="site-footer">
-        
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
-      </footer> -->
-    </main>
-    
-    <!-- Java script for table -->
-    <script>
-      function openType(evt, pmDate) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-          tabcontent[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-          tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-        document.getElementById(pmDate).style.display = "block";
-        evt.currentTarget.className += " active";
-      }
-      
-      // Get the element with id="defaultOpen" and click on it
-      document.getElementById("defaultOpen").click();
-    </script>
-      
-      <!-- topnavbar -->
-      <script>
-      function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-          x.className += " responsive";
-        } else {
-          x.className = "topnav";
-        }
-      }
-      </script>
-      
-  </body>
-</html>
+:ET
