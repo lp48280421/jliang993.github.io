@@ -492,17 +492,23 @@ a.topnav_home { float: left; margin-left: 11%; }
 
 @media screen and (max-width: 42em) { a.topnav_home { margin-left: 1%; } }
 
+a.topnav_home:hover { font-style: normal; font-weight: 600; }
+
 a.topnav_item { float: right; }
 
 @media screen and (min-width: 42em) and (max-width: 64em) { a.topnav_item { margin-left: 1%; } }
 
 @media screen and (max-width: 42em) { a.topnav_item { margin-left: 1%; } }
 
+a.topnav_item:hover { font-style: normal; font-weight: 600; }
+
 a.topnav_right { float: right; margin-right: 11%; }
 
 @media screen and (min-width: 42em) and (max-width: 64em) { a.topnav_right { margin-right: 1%; } }
 
 @media screen and (max-width: 42em) { a.topnav_right { margin-right: 1%; } }
+
+a.topnav_right:hover { font-style: normal; font-weight: 600; }
 
 .page_title { text-align: center; color: white; margin-top: 80px; text-shadow: -1px 0 0.1em #808080, 0 1px 0.1em #808080, 1px 0 0.1em #808080, 0 -1px 0.1em #808080; }
 
@@ -522,7 +528,7 @@ a.topnav_right { float: right; margin-right: 11%; }
 
 a { text-decoration: none; }
 
-a:focus, a:hover { color: #1a8cff; font-style: italic; text-decoration: none; }
+a:focus, a:hover { color: #1a8cff; font-weight: 500; font-style: italic; text-decoration: none; }
 
 a:focus { outline: dotted thin; outline: -webkit-focus-ring-color auto 5px; outline-offset: -2px; /*background-color: rgba(0,0,0,.4);*/ }
 
