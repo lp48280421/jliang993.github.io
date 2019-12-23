@@ -24,9 +24,9 @@ description: Invited talks, Seminars and Workshop presentations
 
 <!-- Tab links -->
 <div class="tab" style="margin-top:1rem;">
-  <button class="tablinks" onclick="openType(event, 'Invited')" id="defaultOpen">Invited talks</button>
-  <button class="tablinks" onclick="openType(event, 'Seminar')">Seminar talks</button>
-  <button class="tablinks" onclick="openType(event, 'Workshop')">Workshop presentations</button>
+  <button class="tablinks" onclick="openType(event, 'Invited')" id="defaultOpen" style="color: #2eb82e;">Invited talks</button>
+  <button class="tablinks" onclick="openType(event, 'Seminar')" style="color: #0066ff;">Seminar talks</button>
+  <button class="tablinks" onclick="openType(event, 'Workshop')" style="color: #ff3333;">Workshop presentations</button>
 </div>
 
 

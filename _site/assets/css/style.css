@@ -257,9 +257,9 @@ body { padding: 0; margin: 0; font-family: "Open Sans", "Helvetica Neue", Helvet
 
 #skip-to-content { height: 1px; width: 1px; position: absolute; overflow: hidden; top: -10px; }
 
-#skip-to-content:focus { position: fixed; top: 10px; left: 10px; height: auto; width: auto; background: #e19447; outline: thick solid #e19447; }
+#skip-to-content:focus { position: fixed; top: 10px; left: 10px; height: auto; width: auto; background: #ff7f00; outline: thick solid #ff7f00; }
 
-a { color: #1e6bb8; text-decoration: none; }
+a { color: #0080ff; text-decoration: none; }
 
 a:hover { text-decoration: underline; }
 
@@ -332,7 +332,7 @@ a:hover { text-decoration: underline; }
 
 @media screen and (max-width: 42em) { .project-tagline { font-size: 1rem; } }
 
-.main-content { word-wrap: break-word; hyphens: auto; text-align: justify; }
+.main-content { word-wrap: break-word; hyphens: auto; text-align: justify; min-height: 800px; }
 
 .main-content :first-child { margin-top: 0; }
 
