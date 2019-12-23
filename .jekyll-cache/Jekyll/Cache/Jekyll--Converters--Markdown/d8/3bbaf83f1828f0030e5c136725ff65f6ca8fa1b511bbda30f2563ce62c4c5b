@@ -1,19 +1,10 @@
----
-layout: teaching
-title: Teaching
-description: Non-smooth optimization
----
-
-
-#### Description
-The course mainly covers topics in non-smooth optimization and first-order proximal splitting methods. This includes gradient based methods ((sub)gradient method, proximal gradient method, accelerated gradient methods), operator splitting methods (augmented Lagrangian method, alternating direction method of multipliers, monotone operators and operator splitting schemes), and (possibly) interior-point algorithms. Non-convex optimisation and stochastic optimisation will also be introduced. 
-
+I"�<h4 id="description">Description</h4>
+<p>The course mainly covers topics in non-smooth optimization and first-order proximal splitting methods. This includes gradient based methods ((sub)gradient method, proximal gradient method, accelerated gradient methods), operator splitting methods (augmented Lagrangian method, alternating direction method of multipliers, monotone operators and operator splitting schemes), and (possibly) interior-point algorithms. Non-convex optimisation and stochastic optimisation will also be introduced.</p>
 
 <!-- ##### Lectures
 Lectures are Monday and Wednesday, 11:00–12:00am, at MR9, Pav. B0.43.  -->
 
-
-##### Lecture slides
+<h5 id="lecture-slides">Lecture slides</h5>
 <ol style="margin-left:12px;">
     <li> <a href="nsopt/slides/introduction.pdf">Introduction</a></li>
     <li> <a href="nsopt/slides/lecture-01.pdf">Gradient method</a></li>
@@ -39,12 +30,13 @@ Lectures are Monday and Wednesday, 11:00–12:00am, at MR9, Pav. B0.43.  -->
 10. [Non-convex optimisation](nsopt/slides/lecture-09.pdf)
 11. [Stochastic optimisation](nsopt/slides/lecture-10.pdf) -->
 
-**Acknowledgement:** some slides are based on the lecture slides of [Prof. Stephen Boyd](https://web.stanford.edu/~boyd/) and [Prof. Lieven Vandenberghe](http://www.seas.ucla.edu/~vandenbe/).
+<p><strong>Acknowledgement:</strong> some slides are based on the lecture slides of <a href="https://web.stanford.edu/~boyd/">Prof. Stephen Boyd</a> and <a href="http://www.seas.ucla.edu/~vandenbe/">Prof. Lieven Vandenberghe</a>.</p>
 
-##### Projects
-- [Project 1](nsopt/projects/project-01.pdf) Comparison of gradient descent, heavy-ball method and Nesterov's acceleration scheme, and their proximal versions. ([Instructions](nsopt/project1), [data](nsopt/projects/data.zip), [MATLAB code](nsopt/projects/src_Project1.zip))    
-- [Project 2](nsopt/projects/project-02.pdf) Principal component pursuit. ([Instructions](nsopt/project2), [MATLAB code](nsopt/projects/src_Project2.zip)) 
-
+<h5 id="projects">Projects</h5>
+<ul>
+  <li><a href="nsopt/projects/project-01.pdf">Project 1</a> Compare gradient descent, heavy-ball method and Nesterov’s acceleration scheme, and their proximal versions. (<a href="nsopt/project1">Instructions</a>, <a href="nsopt/projects/data.zip">data</a>, <a href="nsopt/projects/src_Project1.zip">MATLAB code</a>)</li>
+  <li><a href="nsopt/projects/project-02.pdf">Project 2</a> Principal component pursuit. (<a href="nsopt/project2">Instructions</a>, <a href="nsopt/projects/src_Project2.zip">MATLAB code</a>)</li>
+</ul>
 
 <!-- <table class="tg" style="width:96%;table-layout:fixed;border:1px solid rgb(222,222,222); margin-left:auto;margin-right:auto;">
       <tr>
@@ -78,15 +70,14 @@ Lectures are Monday and Wednesday, 11:00–12:00am, at MR9, Pav. B0.43.  -->
         </tr>
 </table> -->
 
+<h5 id="references">References</h5>
+<ul>
+  <li>S. Boyd and L. Vandenberghe. Convex optimization. Cambridge university press, 2004.</li>
+  <li>R. T. Rockafellar. Convex analysis. Princeton university press, 2015.</li>
+  <li>A. Beck. First-order methods in optimization. Vol. 25. SIAM, 2017.</li>
+  <li>H. H. Bauschke and P. L. Combettes. Convex analysis and monotone operator theory in Hilbert spaces. Vol. 408. New York: Springer, 2011.</li>
+  <li>B. Polyak. Introduction to optimization. Optimization Software, 1987.</li>
+  <li>Y. Nesterov. Introductory lectures on convex optimization: A basic course. Vol. 87. Springer Science &amp; Business Media, 2013.</li>
+</ul>
 
-##### References
-- S. Boyd and L. Vandenberghe. Convex optimization. Cambridge university press, 2004.
-- R. T. Rockafellar. Convex analysis. Princeton university press, 2015.
-- A. Beck. First-order methods in optimization. Vol. 25. SIAM, 2017.
-- H. H. Bauschke and P. L. Combettes. Convex analysis and monotone operator theory in Hilbert spaces. Vol. 408. New York: Springer, 2011.
-- B. Polyak. Introduction to optimization. Optimization Software, 1987.
-- Y. Nesterov. Introductory lectures on convex optimization: A basic course. Vol. 87. Springer Science & Business Media, 2013.
-
-
-
-
+:ET
