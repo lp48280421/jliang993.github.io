@@ -1,8 +1,35 @@
 toc:
     - type: preprint
       papers:
-          - authors: D. Driggs, JL and C. Schönlieb
-            title: On the Bias-Variance Tradeoff in Stochastic Gradient Methods
+          - authors: C. Poon and JL
+            title: Geometry of First-order Methods and Adaptive Acceleration
+            journal: 
+            volume: 
+            page: 
+            year: 2020
+            url: assets/files/journal/a2fom.pdf
+            misc: 
+
+          - authors: D. Driggs, J. Tang, JL, M. Davies and C. Schönlieb 
+            title: "SPRING: A Fast Stochastic Proximal Alternating Method for Non-smooth Non-convex Optimization" 
+            journal: 
+            volume: 
+            page: 
+            year: 2020
+            url: assets/files/conference/spring.pdf
+            misc: 
+
+          - authors: K. Wei, A. Aviles-Rivero, JL, Y. Fu, C. Schönlieb and H. Huang 
+            title: Tuning-free Plug-and-Play Proximal Algorithm for Inverse Imaging Problems 
+            journal: 
+            volume: 
+            page: 
+            year: 2020
+            url: assets/files/conference/PnP.pdf
+            misc: 
+
+          - authors: D. Driggs, JL and C. Schönlieb 
+            title: On the Bias-Variance Tradeoff in Stochastic Gradient Methods 
             journal: 
             volume: 
             page: 

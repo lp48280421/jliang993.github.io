@@ -35,7 +35,7 @@ I received my Ph.D. from ENSICAEN and University of Caen Normandy advised by [Ja
 * Non-smooth Optimization, Image Processing.
 
 ##### Short bio
-- 2019-Now: Leverhulme Early Career Fellowship, DAMTP, University of Cambridge.
+- 2019-Now: Leverhulme Early Career Fellow, DAMTP, University of Cambridge.
 - 2017-2019: Postdoc research associate, DAMTP, University of Cambridge.
 - 2013-2016: Ph.D. in Applied Mathematics, GREYC, ENSICAEN and University of Caen Normandy. 
 - 2012-2013: Research intern, GREYC, ENSICAEN and University of Caen Normandy.
