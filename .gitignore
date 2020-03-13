@@ -1,2 +1,4 @@
 *.jemdoc
 *.icloud
+*_tablestyle.md
+*_tablestyle.html
