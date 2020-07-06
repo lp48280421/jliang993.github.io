@@ -1,3 +1,10 @@
+- authors: K. Wei, A. Aviles-Rivero, JL, Y. Fu, C. Schönlieb and H. Huang 
+  title: Tuning-free Plug-and-Play Proximal Algorithm for Inverse Imaging Problems 
+  conference: International Conference on Machine Learning (<span style="font-weight:600;">ICML</span>)
+  year: 2020
+  url: assets/files/conference/PnP.pdf
+  misc: 
+            
 - authors: C. Poon, JL
   title: Trajectory of Alternating Direction Method of Multipliers and Adaptive Acceleration
   conference: Advances in Neural Information Processing Systems (<span style="font-weight:600;">NeurIPS</span>)

@@ -19,15 +19,6 @@ toc:
             url: assets/files/conference/spring.pdf
             misc: 
 
-          - authors: K. Wei, A. Aviles-Rivero, JL, Y. Fu, C. Schönlieb and H. Huang 
-            title: Tuning-free Plug-and-Play Proximal Algorithm for Inverse Imaging Problems 
-            journal: 
-            volume: 
-            page: 
-            year: 2020
-            url: assets/files/conference/PnP.pdf
-            misc: 
-
           - authors: D. Driggs, JL and C. Schönlieb 
             title: On the Bias-Variance Tradeoff in Stochastic Gradient Methods 
             journal: 
