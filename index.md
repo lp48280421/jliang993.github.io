@@ -8,7 +8,7 @@ description: "Welcome to my homepage"
 <div>
 <img src="assets/img/jingwei.jpeg" align="left" style="min-width:100px;max-width:222px;padding: 10px 12px"> 
 <ul style="list-style-type:none">
-    <li style="padding-top:0.5rem;"><span style="margin-left:0;">I am currently a Leverhulme Early Career Fellowship at <a href="http://www.damtp.cam.ac.uk/">Department of Applied Mathematics and Theoretical Physics</a> <a href="https://www.cam.ac.uk/">University of Cambridge</a>. I am also a member of the group <a href="http://www.damtp.cam.ac.uk/research/cia/">Cambridge Image Analysis</a>.</span></li>
+    <li style="padding-top:0.5rem;"><span style="margin-left:0;">I am currently a Leverhulme Early Career Fellow at <a href="http://www.damtp.cam.ac.uk/">Department of Applied Mathematics and Theoretical Physics</a> <a href="https://www.cam.ac.uk/">University of Cambridge</a>. I am also a member of the group <a href="http://www.damtp.cam.ac.uk/research/cia/">Cambridge Image Analysis</a>.</span></li>
     <li style="padding-top:10px;"><span style="margin-left:1.7rem">I received my Ph.D. from ENSICAEN and University of Caen Normandy advised by <a href="https://fadili.users.greyc.fr/">Jalal Fadili</a> and <a href="http://gpeyre.github.io/">Gabriel Peyré</a>. I received my master degree from Shanghai Jiao Tong University under the supervision of <a href="http://math.sjtu.edu.cn/faculty/xqzhang/">Xiaoqun Zhang</a>. Prior to that I obtained my bachlor degree in Electrical & Information Engineering from Nanjing University of Posts and Telecommunications.</span></li><br>
 </ul>
 <br>

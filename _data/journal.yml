@@ -28,15 +28,6 @@ toc:
             url: assets/files/conference/bias.pdf
             misc: 
                 
-          - authors: A. Dutta, F. Hanzely, JL and P. Richtárik
-            title: Best Pair Formulation & Accelerated Scheme for Non-convex Principal Component Pursuit
-            journal: 
-            volume: 
-            page: 
-            year: 2019
-            url: assets/files/conference/BP-PCP.pdf
-            misc: 
-                
           - authors: A. Lewis, JL
             title: Partial Smoothness and Constant Rank
             journal: 
@@ -58,6 +49,15 @@ toc:
           
     - type: journal
       papers:
+          - authors: A. Dutta, F. Hanzely, JL and P. Richtárik
+            title: Best Pair Formulation & Accelerated Scheme for Non-convex Principal Component Pursuit
+            journal: to appear IEEE Trans. on Signal Processing
+            volume: 
+            page: 
+            year: 2020
+            url: assets/files/journal/bp-pcp.pdf
+            misc: 
+
           - authors: C. Molinari, JL and J. Fadili
             title: Convergence Rates of Forward–Douglas–Rachford Splitting Method
             journal: Journal of Optimization Theory and Applications
